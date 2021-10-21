@@ -1,7 +1,7 @@
-const countDate = () => {
-    const countDate = new Date("December 25, 2021 00:00:00").getTime();  //inserted is the date we are counting down to, this can be changed 
+const countDown = () => {
+    const countDown = new Date("October 21, 2021 23:40:00").getTime();  //inserted is the date we are counting down to, this can be changed 
     const now = new Date().getTime();
-    const gap = countDate -  now;
+    const gap = countDown -  now;
     
     
     //Time in second, minutes, hours and days 
@@ -22,7 +22,7 @@ const countDate = () => {
     document.querySelector('.minute'). innerText = textMinute;
     document.querySelector('.second'). innerText = textSecond;
 
-
+    console.log(gap);
 };
 
-countDate();
+setInterval(countDown, 1000); //set interval to run every single second 
