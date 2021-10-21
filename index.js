@@ -12,8 +12,10 @@ const countDate = () => {
     
     // calculation
     const textDay = Math.floor(gap / day) ;
-    console.log(textDay);
-
+    const textHour = Math.floor((gap % day) / hour) ;  // this sign % means a remainder of a value
+    const textMinute = Math.floor((gap % hour) / minute) ;
+    const textSecond = Math.floor((gap % day) / hour) ;
 };
 
+console.log(20 % 2);
 countDate();
