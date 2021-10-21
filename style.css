@@ -24,7 +24,7 @@ h2{
 .countdown {
     display: inline-block;
     font-size: 20px;
-    padding: 20px;
+    padding: 20px; *
 
 }  /* this setting is not showing */
 
