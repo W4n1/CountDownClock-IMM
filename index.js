@@ -1,5 +1,5 @@
 const countDown = () => {
-    const countDown = new Date("October 21, 2021 23:40:00").getTime();  //inserted is the date we are counting down to, this can be changed 
+    const countDown = new Date("October 21, 2021 23:40:00").getTime();  //inserted the date you would like to count down from
     const now = new Date().getTime();
     const gap = countDown -  now;
     
@@ -16,7 +16,7 @@ const countDown = () => {
     const textMinute = Math.floor((gap % hour) / minute);
     const textSecond = Math.floor((gap % minute) / second);
 
-    //updating HTML
+    //updating and connecting to the HTML file
     document.querySelector('.day'). innerText = textDay;
     document.querySelector('.hour'). innerText = textHour;
     document.querySelector('.minute'). innerText = textMinute;
