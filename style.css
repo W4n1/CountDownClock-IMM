@@ -3,28 +3,36 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-size: 10px;
+
 }
 body{
     font-family: "Lato", sans-serif;
+    height: 81px;
+    width: 2031px
+
 }
 
 h2{
     font-size: 5rem;
     font-weight: bold;
-    padding: 3rem;
+    padding: 1rem;
 }
+
 .coming-soon {
-    min-height: 100vh;
+    min-height: 10vh;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 
 .countdown {
     display: inline-block;
     font-size: 20px;
-    padding: 20px; *
+    padding: 5px;
+
 
 }  /* this setting is not showing */
 

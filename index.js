@@ -21,6 +21,12 @@ const countDown = () => {
     document.querySelector('.hour'). innerText = textHour;
     document.querySelector('.minute'). innerText = textMinute;
     document.querySelector('.second'). innerText = textSecond;
+    document.querySelector('.second'). innerText = textSecond;
+
+    document.getElementById("height_width").style.height = "162px";
+    document.getElementById("height_width").style.width = "2031px";
+
+
 
     console.log(gap);
 };
