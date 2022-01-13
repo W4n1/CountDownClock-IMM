@@ -1,2 +1,2 @@
 # CountDownClock-
-for buySubcription
+for buySubcription for Immediate Media
